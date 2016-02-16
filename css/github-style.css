@@ -1,0 +1,93 @@
+/* universal styles */
+ 
+ /*css reset chris coyier*/
+*, 
+*:before, 
+*:after{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*clearfix paul irish*/
+.clearfix:after {
+	display: table;
+	content: " ";
+	clear: both;
+}
+
+ /*global styles*/
+
+.centerme{
+	text-align: center; 
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+.hide{
+	display: none;
+}
+
+/*page styles*/
+
+.home{
+	background: url(../img/flowers-background.jpg) center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+
+header{
+	font-family: 'Pacifico', cursive;
+	font-size: 200%;
+	float:center;
+}
+
+h2{
+	font-size: 125%
+}
+
+
+.container{
+	max-width: 960px;
+	margin: 0 auto;
+	margin-top: 40px;
+	padding: 20px;
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 10px;
+}
+
+
+p{
+	font-family: 'Lora', serif;
+	margin-bottom: 10px;
+	font-size: 120%; 
+	line-height: 25px;
+}
+
+.box{
+	padding: 15px 15px;
+	margin-bottom: 15px; 
+	border-radius: 10px;
+	text-align: left;
+}
+
+a{
+	font-weight: 700;
+	color: rgba(0, 0, 0, 1);
+
+}
+
+span{
+	font-weight:700;
+	color: rgba(0, 0, 0, 1);
+}
